@@ -56,5 +56,13 @@ List Tags - <ul> - unordered list, <li> - list of items, <ol> - ordered list
 
 Table tags - table, thead, th, tbody, tr, tbody
 
+Form tags - Form, input, textarea, select, button
 
+script tags - script, no script
 
+Some notes for understanding:
+&nbsp; - It is used to create space 
+<a></a> - It is also called anchor tag
+<ins></ins> - It is know as insert tag, It has similar use as of underaline tag
+<cite></cite> - It is known as cite tag, It works as a italic tag
+<abbr></abbr> - It is abbrevation tag

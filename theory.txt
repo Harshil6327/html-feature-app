@@ -66,3 +66,5 @@ Some notes for understanding:
 <ins></ins> - It is know as insert tag, It has similar use as of underaline tag
 <cite></cite> - It is known as cite tag, It works as a italic tag
 <abbr></abbr> - It is abbrevation tag
+
+CSS - cascading style sheet

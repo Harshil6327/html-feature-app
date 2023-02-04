@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Color, Fonts, Sizes</title>
+    <style>
+        h1 {
+            color: coral;
+            /* font-family: 'papyrus', harry, 'Courier New', Courier, monospace; */
+            font-family: harshil, shivam, dhaval, rushi;
+            font-size: 50px;
+        }
+
+        p.border {
+            color: #0000FF;
+            font-family: 'Courier New';
+            font-size: 20px;
+        }
+
+        .border {
+            color: cornflowerblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: 2px solid black;
+            width: 300px;
+            height: 200px;
+            align-content: center;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .own-class {
+            border-top: 2px dashed black;
+            border-left: 2px dotted red;
+            border-bottom: 2px solid blue;
+            border-right: 2px double green;
+            border: 10px solid green;
+            width: 50vh;
+            padding: 10px 20px 50px 100px;
+            border-radius: 10px 50px;
+            background-color: greenyellow;
+        }
+
+        .first-margin {
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            color: white;
+            border: 2px solid black;
+            margin-left: 100px;
+            margin-bottom: 50px;
+        }
+
+        .second-margin {
+            background-color: greenyellow;
+            height: 200px;
+            width: 200px;
+            color: black;
+            border: 2px solid green;
+            margin: 50px;
+        }
+
+        .third-margin {
+            background-color: darkorchid;
+            height: 200px;
+            width: 200px;
+            color: white;
+            border: 2px solid red;
+            margin: 50px;
+        }
+
+        table, tr, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        th {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is header tag</h1>
+    <p>This is paragraph</p>
+    <p class="border">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, illo!
+    </p>
+    <div class="border">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ex?
+    </div>
+    <p class="own-class">
+        This is paragraph to test our padding <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, iure.
+    </p>
+    <div class="first-margin">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, blanditiis?
+    </div>
+    <div class="second-margin">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, ullam.
+    </div>
+    <div class="third-margin">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, vero.
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>City</th>
+                <th colspan="2">Address</th>
+                <th>Telephone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harshil</td>
+                <td>h@abc.com</td>
+                <td>Bardoli</td>
+                <td>Gujarat</td>
+                <td>India</td>
+                <td>123456789</td>
+            </tr>
+            <tr>
+                <td>Harshil</td>
+                <td>h@abc.com</td>
+                <td>bardoli</td>
+                <td>Gujarat</td>
+                <td>India</td>
+                <td>123456789</td>
+            </tr>
+            <tr>
+                <td>Harshil</td>
+                <td>h@abc.com</td>
+                <td>bardoli</td>
+                <td>Gujarat</td>
+                <td>India</td>
+                <td>123456789</td>
+            </tr>
+        </tbody>
+    </table> <br>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Harshil</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone</th>
+            <td>5545646</td>
+        </tr>
+        <tr>
+            <td><button>submit</button></td>
+        </tr>
+        <tr>
+            <th>Data</th>
+            <td><input type="checkbox"></td>
+        </tr>
+    </table>
+    <br><br><br><br><br>
+</body>
+</html>

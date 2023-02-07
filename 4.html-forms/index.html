@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>HTML Forms</title>
+</head>
+<body>
+    <div class="container">
+        <h1>HTML Forms</h1>
+        <form>
+            <h4>Single Line Input</h4>
+            <b>ID:</b><input type="number" name="" class="form-control w-50">
+            <b>First Name:</b><input type="text" name="firstName" class="form-control w-50" placeholder="Please provide first name" maxlength="10" required> <br>
+            <b>Second Name:</b><input type="text" name="secondName" class="form-control w-50" placeholder="Please provide last name"> <br>
+            <h4>Password Control</h4> 
+            <b>Password:</b><input type="password" name="password" class="form-control w-50" placeholder="Please provide password"> <br>
+            <h4>Multiline Input Control</h4>
+            <textarea name="description"  class="form-control w-50" style="overflow-x: scroll; white-space: nowrap;" placeholder="Please provide description" cols="50" rows="5"></textarea> <br>
+            <h4>Checkbox Control</h4>
+            <input type="checkbox" name="maths" value="maths" checked> Maths <br>
+            <input type="checkbox" name="physics" value="physics"> Physics <br>
+            <input type="checkbox" name="chemistry" value="chemistry"> Chemistry <br>
+            <br><br>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="unknown"> Unknown
+            <br><br>
+            <h4>Selectbox Control</h4>
+            <select name="dropdown" class="form-select w-50" multiple>
+                <option value="india" select>India</option>
+                <option value="japan">Japan</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="russia">Russia</option>
+                <option value="uae">UAE</option>
+            </select>
+            <br><br>
+            <b>Select PDF file:</b><input type="file" class="form-control" name="upload" accept="application/pdf">
+            <b>Select image:</b><input type="file" class="form-control" name="upload" accept="image/*">
+            <b>Select csv file:</b><input type="file" class="form-control" name="upload" accept=".csv">
+            <br><br>
+            <button>Submit</button>
+            <br><br><br>
+        </form>
+    </div>
+    
+</body>
+</html>
